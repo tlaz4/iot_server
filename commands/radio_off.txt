@@ -1,0 +1,1 @@
+./commands/radio.sh off
