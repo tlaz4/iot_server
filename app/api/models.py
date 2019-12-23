@@ -52,6 +52,7 @@ class RGBLed(Device):
 	red = db.Column(db.Integer)
 	green = db.Column(db.Integer)
 	blue = db.Column(db.Integer)
+	pattern = db.Column(db.Integer, default=0)
 
 	__mapper_args__ = {
 		'polymorphic_identity': 'rgbleds'
@@ -65,5 +66,6 @@ class RGBLed(Device):
 			'status': self.status,
 			'red': self.red,
 			'green': self.green,
-			'blue': self.blue
+			'blue': self.blue,
+			'pattern': self.pattern
 		}

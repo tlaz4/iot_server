@@ -29,17 +29,17 @@ def seed_db():
 		id=1, 
 		device_name="LED Strip1",
 		type='rgbleds',
-		red=0,
-		green=0,
-		blue=0
+		red=255,
+		green=255,
+		blue=255
 	)
 	rgb_led2 = RGBLed(
 		id=3, 
 		device_name="LED Strip2",
 		type='rgbleds',
-		red=0,
-		green=0,
-		blue=0
+		red=255,
+		green=255,
+		blue=255
 	)
 	led = SimpleDevice(id=2, device_name="LED1", type='simpledevices')
 
