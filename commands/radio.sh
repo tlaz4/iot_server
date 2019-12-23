@@ -1,9 +1,3 @@
 #!/bin/bash
 
-if [ $1 == 'on' ]
-then
-	python3 commands/radio.py on
-elif [ $1 == 'off' ]
-then
-	python3 commands/radio.py off
-fi
+curl -X PATCH -H "Content-Type: application/json" -d '{"status": false}' http://10.0.0.238:5000/api/devices/2

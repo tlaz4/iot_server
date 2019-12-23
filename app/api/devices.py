@@ -41,6 +41,7 @@ class Devices(Resource):
 				setattr(device, k, v)
 
 		db.session.commit()
+		# consider adding a timer attribute to all devices 
 		transmit_interface.init_protocol(device.type, device.to_json())
 
 		response_object = {
