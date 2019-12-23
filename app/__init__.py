@@ -18,8 +18,12 @@ def create_app(script_info=None):
 	db.init_app(app)
 
 	from app.views import home_blueprint
+	from app.api.rooms import room_blueprint
+	from app.api.devices import device_blueprint
 
 	app.register_blueprint(home_blueprint)
+	app.register_blueprint(room_blueprint)
+	app.register_blueprint(device_blueprint)
 
 	@app.shell_context_processor
 	def ctx():
