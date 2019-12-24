@@ -4,6 +4,9 @@
   "description": "",
   "main": "static.js",
   "dependencies": {
+    "@jaames/iro": "^4.5.3",
+    "@material-ui/core": "^4.8.0",
+    "@radial-color-picker/react-color-picker": "^1.0.0",
     "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
