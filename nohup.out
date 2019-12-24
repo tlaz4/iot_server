@@ -3674,3 +3674,18 @@ job 134 at Mon Dec 23 02:59:00 2019
 10.0.0.238 - - [23/Dec/2019 02:59:00] "PATCH /api/devices/2 HTTP/1.1" 200 -
 10.0.0.209 - - [23/Dec/2019 11:25:50] "GET / HTTP/1.1" 200 -
 10.0.0.209 - - [23/Dec/2019 11:25:50] "GET /api/rooms HTTP/1.1" 200 -
+ * Detected change in '/home/pi/iot_server/app/api/models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 245-946-304
+ * Detected change in '/home/pi/iot_server/app/api/transmit.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 245-946-304
+ * Serving Flask app "app/__init__.py" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 245-946-304
